@@ -36,6 +36,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
           if(i == _pagesList.length-1 ){
             setState(() {
               isLast = true;
+              // sd
             });
           }
           else{
